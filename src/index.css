@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+
+
+
+
+
+
+
+.farm-bg {
+    background: linear-gradient(
+        to right,
+        rgba(34, 65, 51, 0.8) 0%,
+        rgba(34, 65, 51, 0.3) 20%,
+        rgba(0, 0, 0, 0.1) 50%,
+        rgba(34, 65, 51, 0.3) 80%,
+        rgba(34, 65, 51, 0.8) 100%
+    ),
+    url('/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
