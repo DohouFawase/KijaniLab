@@ -1,4 +1,5 @@
 import HeroSction from "../components/herosection/hero";
+import KijaniLabTimeline from "../components/vison/impact";
 import MissionSection from "../components/vison/vision";
 
 export default function HomePage() {
@@ -6,6 +7,7 @@ export default function HomePage() {
     <div>
       <HeroSction/>
       <MissionSection/>
+      <KijaniLabTimeline/>
     </div>
   )
 }
