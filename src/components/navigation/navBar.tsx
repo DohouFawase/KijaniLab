@@ -147,7 +147,7 @@ export default function Navigation() {
                 to="/" 
                 className="text-2xl font-bold text-green-600 flex items-center gap-2"
               >
-                🌿 KijaniLab
+                <img src="/logo.png" alt="Logo de KijaniLab"  className='w-24 h-24 object-cover hidden md:block' /> <span className='md:hidden block'>KijaniLab</span>
               </NavLink>
             </motion.div>
 
